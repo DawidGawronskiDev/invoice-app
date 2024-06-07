@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer components {
+  body {
+    @apply bg-c-05;
+  }
+
   main {
     @apply flex-1;
   }

@@ -1,7 +1,9 @@
+import Invoices from "./ui/invoices";
+
 export default function Home() {
   return (
     <main>
-      <h1>Main Page</h1>
+      <Invoices />
     </main>
   );
 }
